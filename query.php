@@ -28,7 +28,6 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($data));
 curl_setopt($ch, CURLOPT_HEADER, true);  // Include headers in the output
 
 $response = curl_exec($ch);
-echo '<pre>';print_r($response);die;
 
 if (curl_errno($ch)) {
     echo 'Error:' . curl_error($ch);
