@@ -27,7 +27,7 @@ $data = [
             "metadata" => ["genre" => "drama"]
         ]
         ],
-    "namespace" => 'ns2'
+    "namespace" => 'ns3'
 ];
 
 $headers = [

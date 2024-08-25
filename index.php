@@ -3,8 +3,8 @@ $apiUrl = "https://api.pinecone.io/indexes";
 $apiKey = "c396b6ae-290f-4d30-a603-47841e650bf9";  // Replace with your actual API key
 
 $data = [
-    "name" => "quickstart",
-    "dimension" => 8,  // Replace with your model dimension
+    "name" => "vendoralliance",
+    "dimension" => 1024,  // Replace with your model dimension
     "metric" => "euclidean",  // Replace with your model metric
     "spec" => [
         "serverless" => [
